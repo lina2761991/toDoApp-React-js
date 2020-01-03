@@ -1,0 +1,83 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+/* body {
+  padding-top: 50px;
+} */
+#titles{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 100px !important;
+  color: white;
+  font-weight: bold;
+
+}
+h2{
+  margin-bottom: 20px !important;
+}
+.starter-template {
+ 
+  text-align: center;
+}
+.content-area {
+width: 100%;
+margin:0px;
+
+}
+
+::placeholder{
+  color:#b4d3ed;
+}
+
+.input-area {
+ 
+  margin-top: 51px;
+  padding-bottom: 10px;
+  background-color:#4696E5;
+  border-radius: 5px; 
+  
+}
+
+.btn {
+  background-color: #4696E5;
+  border:solid white !important;
+  color:white;
+  margin-left:1000px ;
+  
+}
+.task-text {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.hidden {
+  display: none;
+}
+.delete-icon-area {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.delete-icon {
+  color: red;
+}
+.complete {
+  text-decoration: line-through;
+}
+
+.container li{
+  margin-left: 15px;
+ 
+}
